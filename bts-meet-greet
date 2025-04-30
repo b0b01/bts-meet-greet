@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BTS Management Meet & Greet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e1e2f;
+      color: #fff;
+    }
+    header {
+      background: #6c2dc7;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section h2 {
+      color: #cba6f7;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: none;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #cba6f7;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      color: #1e1e2f;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #6c2dc7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BTS Management Meet & Greet</h1>
+    <p>Connect with the BTS team and fellow ARMY</p>
+  </header>  <section class="section" id="details">
+    <h2>Event Details</h2>
+    <p><strong>Date:</strong> July 15, 2025</p>
+    <p><strong>Time:</strong> 2:00 PM – 6:00 PM</p>
+    <p><strong>Location:</strong> Seoul Arts Center, South Korea</p>
+  </section>  <section class="section" id="register">
+    <h2>Register Now</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Why do you want to join?</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>  <section class="section" id="schedule">
+    <h2>Agenda</h2>
+    <ul>
+      <li>2:00 PM – Welcome Speech</li>
+      <li>2:30 PM – Behind-the-scenes with Management</li>
+      <li>3:30 PM – Q&A Session</li>
+      <li>4:30 PM – Group Photos</li>
+      <li>5:00 PM – Meet & Greet</li>
+    </ul>
+  </section>  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: events@bts-management.com</p>
+    <p>Instagram: @btsmanagement</p>
+  </section>  <footer>
+    <p>&copy; 2025 BTS Management. All rights reserved.</p>
+  </footer>
+</body>
+</html>
